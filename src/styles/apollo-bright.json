@@ -7,7 +7,7 @@
         "osm": {
             "type": "vector",
             "tiles": [
-                "{tile_server_xyz_url}"
+                "https://tile.nextzen.org/tilezen/vector/v1/256/all/{z}/{x}/{y}.mvt?api_key=3XqXMjEdT2StnrIRJ4HYbg"
             ]
         },
         "natural_earth_2": {

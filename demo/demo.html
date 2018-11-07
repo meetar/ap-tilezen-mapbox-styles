@@ -36,15 +36,12 @@
 </div>
 <div style="position: absolute; bottom: 5px; right: 5px; background: hsla(0,0%,100%,.7)">
     <div style="font-size: 11px; font-family:Helvetica, Arial, sans-serif;">
-        (NOTE: Using limited static cache of tiles so not all tiles are available)
-    </div>
-    <div style="font-size: 11px; font-family:Helvetica, Arial, sans-serif;">
         ©<a href="http://osm.org/copyright">OpenStreetMap</a>
         Who's On First <a href="https://whosonfirst.mapzen.com#License">License</a></div>
 </div>
 <script>
     const styleFactory = new apolloStyles.StyleFactory({
-        tileUrl: "https://demo-tiles.apollomapping.com/512/all/{z}/{x}/{y}.mvt?key=1a9648aba8b441e39d49f729101a8ea7",
+        tileUrl: "https://tile.nextzen.org/tilezen/vector/v1/256/all/{z}/{x}/{y}.mvt?api_key=3XqXMjEdT2StnrIRJ4HYbg",
         resourceUrl: "https://s3-us-west-1.amazonaws.com/osm-vector-tiles-apollomapping",
         localization: "en"
     });
